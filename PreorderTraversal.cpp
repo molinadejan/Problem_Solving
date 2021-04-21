@@ -1,6 +1,17 @@
 #include <iostream>
 #include <stack>
 
+// preorder 종주를 하면서 각 노드의 값을 출력
+
+// 입력값 : 
+//       10
+//    /      \
+//   7       16
+//  /  \    /   \
+// 2   8   11   18
+
+// 반환값 : 10, 7, 2, 8, 16, 11, 18
+
 struct TreeNode
 {
 	int val;
