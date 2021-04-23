@@ -1,4 +1,5 @@
 //  이차원 배열 빗금 채우기
+//  https://codeup.kr/problem.php?id=1476
 //  n : 3, m : 4
 //  1   3   6   9
 //  2   5   8  11
