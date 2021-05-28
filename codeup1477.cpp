@@ -1,7 +1,7 @@
-//  ÀÌÂ÷¿ø ¹è¿­ ºø±İ Ã¤¿ì±â
+//  ì´ì°¨ì› ë°°ì—´ ë¹—ê¸ˆ ì±„ìš°ê¸°
 //  https://codeup.kr/problem.php?id=1477
 //  n : 3, m : 4
-//  1   2   5   7
+//  1   2   4   7
 //  3   5   8  10
 //  6   9  11  12
 
@@ -14,7 +14,7 @@ int main(void)
 	int n, m;
 	cin >> n >> m;
 
-	// n x m ¹è¿­ µ¿Àû ÇÒ´ç
+	// n x m ë°°ì—´ ë™ì  í• ë‹¹
 	int** arr = new int* [n];
 	for (int i = 0; i < n; ++i)
 		arr[i] = new int[m];
@@ -32,7 +32,7 @@ int main(void)
 		}
 	}
 
-	// ¹è¿­ Ãâ·Â
+	// ë°°ì—´ ì¶œë ¥
 	for (int i = 0; i < n; ++i)
 	{
 		for (int j = 0; j < m; ++j)
@@ -40,7 +40,7 @@ int main(void)
 		cout << endl;
 	}
 
-	// ¸Ş¸ğ¸® ÇØÁ¦
+	// ë©”ëª¨ë¦¬ í•´ì œ
 	for (int i = 0; i < n; ++i)
 		delete arr[i];
 	delete[] arr;
